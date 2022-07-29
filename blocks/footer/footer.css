@@ -1,0 +1,20 @@
+.footer {
+  font-family: 'Inter', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  max-width: 880px;
+  color: #545454;
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  .footer {
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    max-width: 282px;
+  }
+}

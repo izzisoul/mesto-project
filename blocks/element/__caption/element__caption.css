@@ -1,0 +1,10 @@
+.element__caption {
+  font-family: 'Inter', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0 21px;
+}
