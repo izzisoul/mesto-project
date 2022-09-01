@@ -14,3 +14,5 @@
 
 * [Ссылка на проект Место]
 (https://github.com/izzisoul/mesto-project.git)
+* [Ссылка на GH Pages]
+(https://izzisoul.github.io/mesto-project/)

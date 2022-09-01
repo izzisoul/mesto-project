@@ -45,8 +45,8 @@
         <h2 class="popup__header">Редактировать профиль</h2>
         <form name="form" id="form">
           <fieldset class="popup__text-input">
-            <input type="text" name="name" class="popup__input" id="popup__input-name" placeholder="Жак-Ив Кусто">
-            <input type="text" name="description" class="popup__input" id="popup__input-description" placeholder="Исследователь океана">
+            <input type="text" name="name" class="popup__input" id="popup__input-name" placeholder="Ваше имя">
+            <input type="text" name="description" class="popup__input" id="popup__input-description" placeholder="Описание профиля">
             <input type="submit" class="popup__save-button" value="Сохранить">
           </fieldset>
         </form>
@@ -57,7 +57,7 @@
       <div class="popup__container">
         <button type="button" class="popup__close-icon add-popup-close"></button>
         <h2 class="popup__header">Новое место</h2>
-        <form name="form" class="add-form">
+        <form name="add-form" class="add-form">
           <fieldset class="popup__text-input">
             <input type="text" name="name" class="popup__input popup__image-name" placeholder="Название">
             <input type="text" name="url" class="popup__input popup__image-url" placeholder="Ссылка на картинку">
@@ -70,8 +70,8 @@
     <div class="popup image-popup">
       <div class="full-image-popup">
         <button type="button" class="full-image-popup__close-btn"></button>
-        <img class="full-image-popup__img">
-        <h2 class="full-image-popup__text">Карачаево-Черкессия</h2>
+        <img class="full-image-popup__img" src="/" alt="">
+        <h2 class="full-image-popup__text"></h2>
       </div>
     </div>
 
@@ -85,8 +85,8 @@
         </div>
       </li>
     </template>
-
-    <script src="scripts/script.js"></script>
+    <script src="scripts/cards.js"></script>
+    <script src="scripts/index.js"></script>
 
   </body>
 </html>
