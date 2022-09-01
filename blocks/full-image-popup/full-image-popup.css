@@ -1,0 +1,8 @@
+.full-image-popup {
+  background-color: transparent;
+  margin: auto;
+  width: fit-content;
+  box-sizing: border-box;
+  vertical-align: middle;
+  position: relative;
+}
